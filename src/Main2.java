@@ -50,6 +50,10 @@ public class Main2 {
 		comandantes.add(new Comandante("Bryce ", "McCormick ", 666123456, "12566987D", (byte)44, "Comandante"));
 		comandantes.add(new Comandante("Bob", "Pearson ", 621332263, "36899746J", (byte)49, "Comandante"));
 		comandantes.add(new Comandante("Robert", "Schornstheimer", 611147898, "12144987C", (byte)52, "Comandante Primero"));
+		
+		
+		
+		System.out.println("Esto modificando el proyecto");
 	}
 	public static void rellenarPasajeros(ArrayList<Pasajero> pasajeros) {
 		pasajeros.add(new Pasajero("Pablo", "Costa", 667448798, "09844578P", (byte)18));
@@ -128,7 +132,6 @@ public static ArrayList<Avion> avionesOrdenados(ArrayList <Avion> avionesPrincip
 }
 
 
-System.out.println("Estoy modificando el proyecto");
 public static void aeropuertoMas(ArrayList <Aeropuerto> aeropuertos, ArrayList <Aeropuerto> aeropuertos1, ArrayList <Aeropuerto> aeropuertos2, ArrayList <Aeropuerto> aeropuertos3 ) {
 	
 	
@@ -144,13 +147,11 @@ public static void aeropuertoMas(ArrayList <Aeropuerto> aeropuertos, ArrayList <
 
 public static void comandanteRepetido(ArrayList <Comandante> comandantesPrincipal, Arrays comandante1, Arrays comandante2, Arrays comandante3, Arrays comandante4) {
 	
-		for (int i = 0; i < comandantesPrincipal.size(); i++) {
-			for (int j = 0; j <4 j++) {
-				
-			}
+		
+	
 			
 			
-		}
+		
 		
 	}
 }
