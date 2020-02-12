@@ -53,7 +53,7 @@ public class Main2 {
 	}
 	public static void rellenarPasajeros(ArrayList<Pasajero> pasajeros) {
 		pasajeros.add(new Pasajero("Pablo", "Costa", 667448798, "09844578P", (byte)18));
-		pasajeros.add(new Pasajero("Bruno", "Cortés", 665123325, "09877458K", (byte)19));
+		pasajeros.add(new Pasajero("Bruno", "CortÃ©s", 665123325, "09877458K", (byte)19));
 		pasajeros.add(new Pasajero("Ivan", "Jimenez", 667448798, "97745589Y", (byte)20));
 		pasajeros.add(new Pasajero("David", "Hinojosa", 745112145, "09312345R", (byte)21));
 		pasajeros.add(new Pasajero("Bladimir", "Vargas", 666978847, "01255478H", (byte)21));
@@ -91,7 +91,7 @@ public class Main2 {
 		aeropuertos.add(new Aeropuerto("Adolfo Suarez", "Madrid", "001"));
 		aeropuertos.add(new Aeropuerto("El Prat", "Barcelona", "002"));
 		aeropuertos.add(new Aeropuerto("JFK", "New York", "003"));
-		aeropuertos.add(new Aeropuerto("Reino de León", "León", "004"));
+		aeropuertos.add(new Aeropuerto("Reino de LeÃ³n", "LeÃ³n", "004"));
 		aeropuertos.add(new Aeropuerto("Pisuerga", "Valladolid", "005"));
 		aeropuertos.add(new Aeropuerto("Cid Campeador", "Burgos", "006"));
 		aeropuertos.add(new Aeropuerto("AirCochinillo", "Segovia", "007"));
@@ -128,7 +128,7 @@ public static ArrayList<Avion> avionesOrdenados(ArrayList <Avion> avionesPrincip
 }
 
 
-
+System.out.println("Estoy modificando el proyecto");
 public static void aeropuertoMas(ArrayList <Aeropuerto> aeropuertos, ArrayList <Aeropuerto> aeropuertos1, ArrayList <Aeropuerto> aeropuertos2, ArrayList <Aeropuerto> aeropuertos3 ) {
 	
 	
